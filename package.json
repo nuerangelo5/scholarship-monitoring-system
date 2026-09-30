@@ -1,0 +1,25 @@
+{
+  "name": "scholarship-monitoring-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build --base=./",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js",
+    "format": "prettier --write .",
+    "check": "prettier --check ."
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "lucide": "^0.468.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0",
+    "esbuild": "^0.28.2",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.9.9",
+    "vite": "^7.1.0"
+  }
+}
