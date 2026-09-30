@@ -5,6 +5,7 @@ Student Name: Angelo Nuer
 Section: BSIT-3B
 
 GitHub Repository: https://github.com/nuerangelo5/scholarship-monitoring-system
+
 Live Application: https://nuerangelo5.github.io/scholarship-monitoring-system/
 
 Project Overview
